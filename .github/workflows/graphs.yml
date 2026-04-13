@@ -1,13 +1,13 @@
-name: Response Time CI
+name: Graphs CI
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 0 * * *"
   repository_dispatch:
-    types: [response_time]
+    types: [graphs]
   workflow_dispatch:
 jobs:
   release:
-    name: Check status
+    name: Generate graphs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,10 +15,9 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           token: ${{ secrets.GH_PAT || github.token }}
-      - name: Update response time
+      - name: Generate graphs
         uses: upptime/uptime-monitor@v1.41.0
         with:
-          command: "response-time"
+          command: "graphs"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-          SECRETS_CONTEXT: ${{ toJson(secrets) }}
