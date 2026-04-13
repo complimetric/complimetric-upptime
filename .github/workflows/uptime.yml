@@ -19,6 +19,6 @@ jobs:
       contents: write
     steps:
       - name: Upptime checks
-        uses: upptime/uptime-monitor@v2
+        uses: upptime/uptime-monitor@v1
         with:
           UPPTIME_GH_PAT: ${{ secrets.GH_PAT }}
