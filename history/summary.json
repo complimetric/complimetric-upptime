@@ -40,19 +40,19 @@
     "url": "https://mcp.complimetric.com/health",
     "icon": "https://complimetric.com/favicon.ico",
     "slug": "integrations",
-    "status": "down",
-    "uptime": "2.08%",
-    "uptimeDay": "2.08%",
-    "uptimeWeek": "2.08%",
-    "uptimeMonth": "2.08%",
-    "uptimeYear": "2.08%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "9.39%",
+    "uptimeDay": "9.39%",
+    "uptimeWeek": "9.39%",
+    "uptimeMonth": "9.39%",
+    "uptimeYear": "9.39%",
+    "time": 324,
+    "timeDay": 324,
+    "timeWeek": 324,
+    "timeMonth": 324,
+    "timeYear": 324,
     "dailyMinutesDown": {
-      "2026-04-13": 0
+      "2026-04-13": 4
     }
   },
   {
