@@ -1,0 +1,19 @@
+name: Response Time CI
+on:
+  schedule:
+    - cron: "0 23 * * *"
+  repository_dispatch:
+    types: [upptime]
+
+jobs:
+  response_time:
+    name: Response time graphs
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate graphs
+        uses: upptime/uptime-monitor@v2
+        with:
+          UPPTIME_GH_PAT: ${{ secrets.GH_PAT }}
+          TYPE: graphs

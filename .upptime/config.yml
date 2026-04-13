@@ -1,0 +1,52 @@
+# Upptime configuration — https://upptime.js.org
+# Repository: complimetric/upptime
+# Status page: https://status.complimetric.com
+
+owner: complimetric
+repo: upptime
+
+sites:
+  - name: API
+    url: https://api.complimetric.com/health
+    expectedStatusCodes: [200]
+    maxResponseTime: 3000
+    icon: https://complimetric.com/favicon.ico
+
+  - name: Web Application
+    url: https://complimetric.com
+    expectedStatusCodes: [200]
+    maxResponseTime: 5000
+    icon: https://complimetric.com/favicon.ico
+
+  - name: Integrations
+    url: https://mcp.complimetric.com/health
+    expectedStatusCodes: [200]
+    maxResponseTime: 3000
+    icon: https://complimetric.com/favicon.ico
+
+  - name: Scan Engine
+    url: https://api.complimetric.com/api/v2/health
+    expectedStatusCodes: [200]
+    maxResponseTime: 5000
+    icon: https://complimetric.com/favicon.ico
+
+assignees:
+  - complimetric-ops
+
+status-website:
+  cname: status.complimetric.com
+  name: Complimetric Status
+  description: Real-time status for Complimetric services — IaC compliance platform
+  theme: dark
+  navbar:
+    - title: Website
+      href: https://complimetric.com
+    - title: Support
+      href: mailto:support@complimetric.com
+
+notifications:
+  email:
+    - ops@complimetric.com
+
+i18n:
+  footer: "Powered by [Upptime](https://upptime.js.org). &copy; 2026 Complimetric."
