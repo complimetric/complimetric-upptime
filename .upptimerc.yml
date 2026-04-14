@@ -1,9 +1,9 @@
 # Upptime configuration — https://upptime.js.org
-# Repository: complimetric/upptime
+# Repository: complimetric/complimetric-upptime
 # Status page: https://status.complimetric.com
 
 owner: complimetric
-repo: upptime
+repo: complimetric-upptime
 
 sites:
   - name: API
