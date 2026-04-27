@@ -40,7 +40,7 @@
     "url": "https://mcp.complimetric.com/health",
     "icon": "https://complimetric.com/favicon.ico",
     "slug": "integrations",
-    "status": "up",
+    "status": "down",
     "uptime": "99.98%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -52,6 +52,7 @@
     "timeMonth": 444,
     "timeYear": 444,
     "dailyMinutesDown": {
+      "2026-04-27": 0,
       "2026-04-13": 4
     }
   },
